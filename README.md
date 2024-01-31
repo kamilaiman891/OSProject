@@ -23,9 +23,13 @@ Team Mates:
 ***Questions:***
 
 1. What is the link of the fork OSProject in your repository. 
-https://github.com/kamilaiman891/OSProject/edit/main/README.md
+```
+https://github.com/kamilaiman891/OSProject
+```
 2. How many files and folders are in this repository. ***(1 mark)*** __Fill answer here__.
+```
 7 files and 1 folder
+```
 
 
 
@@ -87,10 +91,15 @@ codespace
 Look at the TERMINAL tab. Run the following commands and provide the output here. 
 
 1. Run the command **pwd** . ***(1 mark)***
+```
 /workspaces/OSProject
+```
 2. Run the command **cat /etc/passwd** . ***(1 mark)***
+```
 bash: cat/etc/passwd: No such file or directory.
+```
 3. Run the command **df** . ***(1 mark)***
+```
 Filesystem     1K-blocks     Used Available Use% Mounted on
 overlay         32847680 13637216  17516368  44% /
 tmpfs              65536        0     65536   0% /dev
@@ -98,7 +107,9 @@ shm                65536        8     65528   1% /dev/shm
 /dev/root       30298176 22982740   7299052  76% /vscode
 /dev/sda1       46127956      304  43752076   1% /tmp
 /dev/loop3      32847680 13637216  17516368  44% /workspaces
+```
 4. Run the command **du** . ***(1 mark)*** 
+```
 64      ./.git/hooks
 4       ./.git/branches
 8       ./.git/info
@@ -186,19 +197,28 @@ shm                65536        8     65528   1% /dev/shm
 2616    ./.git
 1972    ./images
 4604    .
+```
 5. Run the command **ls** . ***(1 mark)*** 
+```
 README.md  images
-6. Run the command **ls -asl** . ***(1 mark)*** total 32
+```
+6. Run the command **ls -asl** . ***(1 mark)***
+```
+ total 32
  4 drwxrwxrwx+ 4 codespace root  4096 Jan 26 19:13 .
  4 drwxr-xrwx+ 5 codespace root  4096 Jan 26 19:13 ..
  4 drwxrwxrwx+ 9 codespace root  4096 Jan 26 19:29 .git
 16 -rw-rw-rw-  1 codespace root 14145 Jan 26 19:34 README.md
  4 drwxrwxrwx+ 2 codespace root  4096 Jan 26 19:13 images
-7. Run the command **free -h** . ***(1 mark)***               
+```
+7. Run the command **free -h** . ***(1 mark)*** 
+```              
 total        used        free      shared  buff/cache   available
 Mem:          7.7Gi       1.6Gi       143Mi       1.0Mi       6.0Gi       5.8Gi
 Swap:            0B          0B          0B
+```
 8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** 
+```
 processor       : 0
 vendor_id       : AuthenticAMD
 cpu family      : 25
@@ -254,8 +274,9 @@ clflush size    : 64
 cache_alignment : 64
 address sizes   : 48 bits physical, 48 bits virtual
 power management:
-
+```
 9. Run the command **top** and type **q** to quit. ***(1 mark)***
+```
 top - 19:42:03 up  3:57,  0 users,  load average: 0.07, 0.16, 0.15
 Tasks:  22 total,   1 running,  21 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  1.2 us,  3.5 sy,  0.0 ni, 95.1 id,  0.2 wa,  0.0 hi,  0.0 si
@@ -268,25 +289,43 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.   5972.5 avail
    3181 codespa+  20   0  668352  61752  39040 S   0.3   0.8 
       1 codespa+  20   0    1136    640    640 S   0.0   0.0 
       7 codespa+  20   0    7236   1792   1792 S   0.0   0.0 
-10. Run the command **uname -a**. ***(1 mark)*** Linux codespaces-7a49ea 6.2.0-1018-azure #18~22.04.1-Ubuntu SMP Tue Nov 21 19:25:02 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
+```
+10. Run the command **uname -a**. ***(1 mark)*** 
+```
+Linux codespaces-7a49ea 6.2.0-1018-azure #18~22.04.1-Ubuntu SMP Tue Nov 21 19:25:02 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
+```
 11. What is the available free memory in the system. ***(1 mark)***
+```
   1.6Gi
+```
 
 12. What is the available disk space mounted on /workspace. ***(1 mark)*** 
+```
 7516368 KB
+```
 13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** 
+```
 Linux codespaces-7a49ea 6.2.0-1018-azure #18~22.04.1-Ubuntu SMP Tue Nov 21 19:25:02 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
+```
 14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)***
+```
 ls :List only the visible files
 and ls -asl : List all of the files including the hidden ones . - a (all) , -s (size) and -l (long format) files . 
+```
 15. What is the TLB size of the Virtual CPU. ***(1 mark)*** 
+```
 Processor 0 :2560 4K pages
  and Processor 1 : 2560 4K pages
+```
 16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** 
+```
 Processor 0 :2932.057 MHz
 and Processor 1 :3150.092 MHz
+```
 17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** 
+```
 PID 2735 USER codespa+
+```
 
 ## Running your own container instance.
 
