@@ -59,14 +59,18 @@ https://github.com/kamilaiman891/OSProject/edit/main/README.md
 ***Questions:***
 
 1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** 
+```
 Linux
+```
 2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** 
+```
 -Standard which includes 2 vCPUs,4GB of RAM and 64 GB of disk space .
 -Performance which includes 4 vCPUs,8GB of RAM and 64 GB of disk space.
+```
 3. Why must we commit and sync our current work on source control? ***(1 mark)*** 
-This allows you to keep your local repository up to date with the latest changes from other contributors
-.
-
+```
+This allows you to keep your local repository up to date with the latest changes from other contributors.
+```
 ## Exploring the Terminal
 
 1. Look at the TERMINAL tab. Explore and run commands according to the questions below. 
