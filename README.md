@@ -382,7 +382,9 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 sudo chown -R codespace:codespace myroot
 
 ```
-*** __Fill answer here__.***
+```
+chown: cannot access 'myroot': No such file or directory
+```
 
 ## You are on your own, create your own static webpage
 
@@ -408,9 +410,19 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 
 ***Questions:***
 
-1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __Fill answer here__.
+1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** _
+```
+user is workspace and group is myroot 
+```
+
 2. What port is the apache web server running. ***(1 mark)***
+```
+8080
+```
 3. What port is open for http protocol on the host machine? ***(1 mark)***
+```
+80
+```
 
 ## What to submit
 
